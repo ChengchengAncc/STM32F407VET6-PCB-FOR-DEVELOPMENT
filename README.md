@@ -1,4 +1,19 @@
 # STM32F407VET6-PCB-FOR-DEVELOPMENT
+
+# BACKGROUND
++ The project is a development board designed for learning and development purposes, based on the STM32F4 and ESP32W32 dual-chip design.
++ The STM32F429VET6 is a 32-bit ARM Cortex-M4 core microcontroller chip introduced by STMicroelectronics. It offers high performance and a rich set of integrated peripherals, including a 180 MHz clock frequency, 512 KB Flash memory, and 256 KB SRAM. This chip supports various communication interfaces such as USB, CAN, SPI, and I2C, and it also features LCD controller and DMA controller functionalities. The STM32F429VET6 has a wide range of digital and analog capabilities, including timers, ADC, and DAC. Additionally, it utilizes the built-in graphics processing accelerator of the F429 for LVGL-UI optimization.
++ The ESP32-WROOM32 is a highly integrated Wi-Fi and Bluetooth dual-mode wireless module introduced by Espressif. It is based on the ESP32 chip and integrates a dual-core CPU, low-power Wi-Fi, and Bluetooth functionalities, providing various communication interfaces and rich peripherals. The ESP32-WROOM32 supports the 802.11 b/g/n Wi-Fi standard and Bluetooth 4.2 BLE. It features high-performance processing capabilities, large-capacity Flash memory, and SRAM.
+## FUNCTION
++ Onboard ESP32-TYPEC Serial Automatic Download Circuit
++ Dual-chip Layout with ESP32-WROOM-32 and STM32F429VET6
++ J-Link programming and debugging
+# INSTALL && USAGE
++ Using LC EDA Professional Edition for editing
++ 6PIN-TYPEC for power supply, and 16PIN-TYPEC for one-click downloading of ESP32.
+# CONTRIBUTOR
+CC.A
+
 # 背景
 + 该项目为基于STM32F4与ESP32W32双芯片设计的一款用于学习开发用途的开发板
 
@@ -56,4 +71,3 @@
 + 6PIN-TYPEC用于供电，16PIN-TYPEC用于ESP32一键下载
 # 贡献者
 CC.A
-
